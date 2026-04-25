@@ -1,50 +1,33 @@
-# Welcome to your Expo app 👋
+# ShopList App - Pemrograman Mobile Pertemuan 6
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Nama & NIM
+- Nama: [Darman Michael Purba]
+- NIM:  [243303621212]
 
-## Get started
+## Fitur yang Diimplementasikan
+- [x] FlatList dengan 12+ produk
+- [x] Custom ProductCard component (file terpisah)
+- [x] keyExtractor dengan ID unik
+- [x] ListEmptyComponent (empty state)
+- [x] Search / Filter real-time
+- [x] Pull-to-Refresh
+- [ ] Filter Kategori (E1) — isi jika dikerjakan
+- [ ] Toggle List/Grid View (E2) — isi jika dikerjakan
+- [ ] SectionList Mode (E3) — isi jika dikerjakan
+- [ ] Sort Produk (E4) — isi jika dikerjakan
 
-1. Install dependencies
+## Screenshot
+### Tampilan Utama (List Produk)
+[<a href="https://ibb.co.com/GQrdDh1f"><img src="https://i.ibb.co.com/WvRHXTdN/Whats-App-Image-2026-04-25-at-9-03-11-AM-1.jpg" alt="Whats-App-Image-2026-04-25-at-9-03-11-AM-1" border="0"></a>]
 
-   ```bash
-   npm install
-   ```
+### Tampilan Search — saat ada hasil
+[<a href="https://ibb.co.com/wrMZ3kjn"><img src="https://i.ibb.co.com/6JgcVMLK/Whats-App-Image-2026-04-25-at-9-03-11-AM.jpg" alt="Whats-App-Image-2026-04-25-at-9-03-11-AM" border="0"></a>]
 
-2. Start the app
+### Tampilan Empty State — saat tidak ada hasil
+[<a href="https://ibb.co.com/9Xv2XB7"><img src="https://i.ibb.co.com/7czVcBq/Whats-App-Image-2026-04-25-at-9-03-11-AM-2.jpg" alt="Whats-App-Image-2026-04-25-at-9-03-11-AM-2" border="0"></a>]
 
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Cara Menjalankan
+1. Clone repo  : git clone [url-repo-kamu]
+2. Install deps: npm install
+3. Jalankan    : npx expo start
+4. Scan QR Code dengan Expo Go di HP
